@@ -11,7 +11,7 @@
   <b>
     <a href ='#intro' > Intro </a>|
     <a href ='#contents' > Contents </a>|
-    <a href ='#project' > Projects </a>|
+    <a href ='#project' > Project </a>|
     <a href ='#contribute'>Contributing </a>|
     <a href ='#credits' > Credits </a>
   </b>
@@ -35,17 +35,63 @@ Airbnb allows individuals to rent all or part of their own home as a form of ext
   <a name="contents">Contents </a> 
 </h2>
 
+### For dependencies were imported:
+* Pandas
+* Numpy
+* Seaborn
+* matplotlib
+* plotly
+* sklearn
+
+### Models:
+* RandonForestRegressor
+* ExtraTreeRegressor
+* LinearRegressor
+
+### Datasets
+
+* [Airbnb Rio de Janeiro dataset](https://drive.google.com/drive/folders/1AapFnCef1eKfVglR3v6IGfjDmtWWtGno)
 
 
 <h2>
-  <a name="project">Projects </a> 
+  <a name="project">Project </a> 
 </h2>
 
+The objective of this project is basically understand what are the main features that has a relevant importance to obtain a rent price for normal houses
+from plain people. 
+Users from Airbnb can rent their houses or apartments while they are travelling, working abroad or simply has an empty room to share.
+Airbnb can't predict the value you're going to rent the site, so, based in Rio de Janeiro Airbnb dataset, what are the average values to rent a place being a plain person? Being aware that a house, apartment, flat or even a small room can't compare with luxury homes and apartments. So to avoid these kinds of outliers is better analyse the dataset carefully.
+
+
+### Joining all dataset's month in a single df 
+<img src = 'https://user-images.githubusercontent.com/75224625/113953144-889d8500-97ed-11eb-9d84-8df52a6e0c86.png' width = 700 height=400>
+
+___
+### Creating functions to help detect outliears, limits and display graphically each feature.
+* **sns.barplot**: Bar graphic 
+* **sns.boxplot**: Box diagram
+* **sns.distplot**: Histogram
+
+<img src = 'https://user-images.githubusercontent.com/75224625/113953155-8c310c00-97ed-11eb-8497-154cedaced3a.png' width = 700 height=400>
+___
+### Amenities is one of the main features from this dataset, with 14 items that should be analysed with atention.
+
+<img src = 'https://user-images.githubusercontent.com/75224625/113953167-918e5680-97ed-11eb-9876-1a94b4d997e1.png' width = 700 height = 400>
+
+___
+### Map view of properties in a data sample of 50000 random properties with plotly express and density_mapbox.
+#### The current value/price is BRL R$.
+<img src = 'https://user-images.githubusercontent.com/75224625/113953177-95ba7400-97ed-11eb-84f9-83ed7bf70c7d.png' width = 700 height = 400>
+
+___
+### Looking for the importance of each feature, it's possible to check that bedrooms and the place are the main causes for variation of renting value
+<img src = 'https://user-images.githubusercontent.com/75224625/113953182-98b56480-97ed-11eb-8f38-c8029e5fcf6e.png' width = 700 height = 400>
+
+In conclusion, the model got an expressive prediction over the 95%, this value can get higher because there are many features that implicates in the final value for renting a place.
 
 <h2>
   <a name="contribute">Contributing </a> 
 </h2>
-
 
 1. **Fork the repo on GitHub**
 2. **Clone the project to your own machine**
@@ -56,22 +102,7 @@ Airbnb allows individuals to rent all or part of their own home as a form of ext
 <h2>
   <a name="credits">Credits </a> 
 </h2>
-
+[Hashtag Programação](https://www.youtube.com/channel/UCafFexaRoRylOKdzGBU6Pgg)
 Copyright (C) 2020-2021 by **Cristian Santiago** 
 ___
 ![Visits Badge](https://badges.pufler.dev/visits/engcristian/Airbnb-Rio-Project)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
