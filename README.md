@@ -93,11 +93,11 @@ In conclusion, the model got an expressive prediction over the 95%, this value c
   <a name="contribute">Contributing </a> 
 </h2>
 
-1. **Fork the repo on GitHub**
+1. **Fork the repository on GitHub**
 2. **Clone the project to your own machine**
 3. **Commit changes to your own branch**
 4. **Push your work back up to your fork**
-5. **Submit a Pull request so that we can review your changes**
+5. **Submit a Pull request so that I can review your changes**
 
 <h2>
   <a name="credits">Credits </a> 
