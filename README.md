@@ -102,7 +102,9 @@ In conclusion, the model got an expressive prediction over the 95%, this value c
 <h2>
   <a name="credits">Credits </a> 
 </h2>
+
 [Hashtag Programação](https://www.youtube.com/channel/UCafFexaRoRylOKdzGBU6Pgg)
+
 Copyright (C) 2020-2021 by **Cristian Santiago** 
 ___
 ![Visits Badge](https://badges.pufler.dev/visits/engcristian/Airbnb-Rio-Project)
